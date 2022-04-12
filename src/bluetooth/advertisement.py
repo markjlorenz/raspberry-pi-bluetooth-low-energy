@@ -23,7 +23,7 @@ class AdvertisementInterface(InterfaceTemplate):
         return "peripheral"
 
     @property
-    def ServiceUUIDS(self) -> List[Str]:
+    def ServiceUUIDs(self) -> List[Str]:
         return [Service.UUID]
 
     @property
